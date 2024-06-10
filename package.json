@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "@solana/spl-token": "^0.4.6",
+        "@solana/web3.js": "^1.92.3",
+        "typescript": "^5.4.5"
+    },
+    "name": "masterz_test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Marcooamato",
+    "license": "MIT",
+    "scripts": {
+        "keygen": "ts-node ./scripts/keygen.ts",
+        "airdrop": "ts-node ./scripts/airdrop.ts",
+        "create_mint": "ts-node ./scripts/spl_init.ts",
+        "mint": "ts-node ./scripts/spl_mint.ts",
+        "transfer": "ts-node ./scripts/spl_transfer.ts"
+    }
+}
